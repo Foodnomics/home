@@ -6,9 +6,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chapter Application - Foodnomics</title>
+    <title>Our Story - John Liu, Founder - Foodnomics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Foodnomics">
+    <meta name="description" content="The inspiring story of John Liu and the founding of Foodnomics">
     <meta name="author" content="codeecstasy">
     <link rel="shortcut icon" href="images/favicon.png"/>
 
@@ -25,7 +25,50 @@
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
     <link href="css/venobox.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css"/>
-    <!--    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <style>
+        .story-content {
+            background: white;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .hero-quote {
+            background: linear-gradient(135deg, #d98416, #f4a942);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+            font-size: 24px;
+            font-style: italic;
+        }
+        .milestone {
+            background: #f8f9fa;
+            border-left: 5px solid #d98416;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .stats-box {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .chapter-highlight {
+            background: #e8f5e8;
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
 
 <body>
 
@@ -54,18 +97,15 @@
                     <a class="logo" href="index.html"><img alt="" src="images/logo.png"></a>
                 </div>
 
-
                 <div class="collapse navbar-collapse">
-
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="" href="index.html" title="Home">Home</a></li>
+                        <li><a href="index.html" title="Home">Home</a></li>
                         <li><a href="about-us.html" title="About Us">About Us</a></li>
                         <li><a href="chapter.html">Chapters</a></li>
                         <li><a href="reports.html">Reports</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="application.html">Application</a></li>
                         <li><a href="app-demo.html">App Demo</a></li>
-
                     </ul>
                 </div><!-- /.navbar-collapse -->
 
@@ -87,15 +127,13 @@
 
             <div class="col-sm-12 text-center">
 
-
                 <h3>
-                    Chapter Application
+                    Our Story
                 </h3>
 
                 <p class="page-breadcrumb">
-                    <a href="#">Home</a> / Application
+                    <a href="index.html">Home</a> / <a href="reports.html">Reports</a> / Founder Story
                 </p>
-
 
             </div>
 
@@ -105,79 +143,93 @@
 
 </section> <!-- end .page-header  -->
 
+<!-- MAIN CONTENT -->
 
-<!--  MAIN CONTENT  -->
+<section class="section-content-block">
 
+    <div class="container wow fadeInUp">
 
+        <!-- Introduction -->
+        <div class="story-content">
+            <div class="text-center" style="margin-bottom: 40px;">
+                <h1 style="color: #d98416;"><i class="fa fa-user-circle"></i> Hello Reader!</h1>
+                <h2 style="color: #666;">The Story Behind Foodnomics</h2>
+                <p style="font-size: 18px; color: #888;">by John Liu, Founder and President</p>
+            </div>
 
-<section style="margin:20px; padding:20px;">
-    <h2>Chapter Sign-Up Form</h2>
-    <form action="https://formspree.io/f/mdknvjyn" method="POST">
-        <!-- Name Field -->
-        <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" class="form-control" required>
+            <p><strong>Welcome to the Foodnomics community!</strong> My name is <strong>John Liu</strong>, founder and President of Foodnomics, a national organization dedicated to empowering high schoolers focused on food reduction waste in their local communities. Growing up the son of two immigrant parents from China, both of whom lived through and seen their families devastated by the Great Leap Forward famine, I've been instilled with a deep appreciation for a belly full from a young age.</p>
         </div>
 
-        <!-- School/Organization/Affiliation Field -->
-        <div class="form-group">
-            <label for="affiliation">School/Organization/Affiliation:</label>
-            <input type="text" id="affiliation" name="affiliation" class="form-control" required>
+        <!-- Mission Statement -->
+        <div class="hero-quote">
+            <i class="fa fa-quote-left" style="font-size: 36px; opacity: 0.7;"></i>
+            <p style="margin: 20px 0;">"Committed to preventing food waste, one meal at a time"</p>
+            <i class="fa fa-quote-right" style="font-size: 36px; opacity: 0.7;"></i>
         </div>
 
-        <!-- Where do you plan on focusing your attention on? -->
-        <div class="form-group">
-            <label>Where do you plan on focusing your attention on?:</label><br>
-            <div class="form-check">
-                <input type="radio" id="school" name="focus" value="School Cafeteria" class="form-check-input" required>
-                <label for="school" class="form-check-label">School Cafeteria</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" id="restaurant" name="focus" value="Restaurant" class="form-check-input">
-                <label for="restaurant" class="form-check-label">Restaurant</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" id="supermarket" name="focus" value="Supermarket" class="form-check-input">
-                <label for="supermarket" class="form-check-label">Supermarket</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" id="other" name="focus" value="Other" class="form-check-input">
-                <label for="other" class="form-check-label">Other</label>
+        <!-- Early Inspiration -->
+        <div class="story-content">
+            <h2 style="color: #d98416;"><i class="fa fa-lightbulb-o"></i> The Spark of Inspiration</h2>
+            
+            <p>In sixth grade, after researching the percentage of people facing food insecurity in the Greater Princeton area for a project (where I'm from), I was shocked by how many of my neighbors, classmates, and teachers saw and experienced low food security in my immediate community. As a result, I started volunteering for <strong>Meals on Wheels</strong>, a community based program that delivers nutritious meals to those who lack access. After many years of weekday deliveries, I still felt something missing—while I was helping seven to nine families every week, what about millions of people in the United States who still went to bed hungry? To me, my actions still felt insignificant, and I wanted to do more.</p>
+        </div>
+
+        <!-- The Critical Discovery -->
+        <div class="story-content">
+            <h2 style="color: #d98416;"><i class="fa fa-exclamation-triangle"></i> A Staggering Realization</h2>
+            
+            <p>During freshman year of high school, after discovering how much food we wasted in the cafeteria every day, I researched a staggering statistic—the world produces enough food to feed every human—though up to 40% of the food supply is wasted every year. Upon learning this critical information, I immediately started thinking about the most effective ways to reach the most people, specifically for cafeterias and restaurants where food waste is more prevalent. Foodnomics was born!</p>
+        </div>
+
+        <!-- Innovation and Development -->
+        <div class="story-content">
+            <h2 style="color: #d98416;"><i class="fa fa-cogs"></i> Building the Solution</h2>
+            
+            <p>Over the past two years, I have worked on creating an app (also titled Foodnomics) that uses the explosive power of large language models to identify, track, and calculate different food categories and the cost of waste, as well as highlighting food categories that are repeatedly wasted more than others.</p>
+        </div>
+
+        <!-- Network Growth -->
+        <div class="story-content">
+            <h2 style="color: #d98416;"><i class="fa fa-globe"></i> Growing the Movement</h2>
+            
+            <p>In addition to the app, I also reached out to passionate and persistent high schoolers, introducing them to the problem of food waste and pledging them to try and reduce food waste at their schools and homes, using the Foodnomics app and other resources we provide.</p>
+
+            <p>Now Foodnomics is a thriving network of ten chapters spanning the East Coast to the west—with more on the way!</p>
+        </div>
+
+        <!-- Impact and Vision -->
+        <div class="story-content">
+            <h2 style="color: #d98416;"><i class="fa fa-target"></i> Our Impact & Future Vision</h2>
+            
+            <p>If you are curious about our activities, setting up a chapter at your school, or anything related to food insecurity, please navigate to the "Application" section and let us know!</p>
+        </div>
+
+        <!-- Personal Reflection -->
+        <div class="story-content" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
+            <h2 style="color: #d98416;"><i class="fa fa-heart"></i> Closing Message</h2>
+            
+            <p><strong>Committed to preventing food waste, one meal at a time.</strong></p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="hero-quote">
+            <h2><i class="fa fa-users"></i> Join Our Mission</h2>
+            <p style="font-size: 18px; margin: 20px 0;">Ready to make a difference in your community? Start your own Foodnomics chapter or use our app to begin tracking and reducing food waste today.</p>
+            <div style="margin-top: 30px;">
+                <a href="application.html" class="btn btn-light btn-lg" style="margin: 10px;">
+                    <i class="fa fa-plus-circle"></i> Start a Chapter
+                </a>
+                <a href="contact.html" class="btn btn-light btn-lg" style="margin: 10px;">
+                    <i class="fa fa-envelope"></i> Contact John
+                </a>
             </div>
         </div>
 
-        <!-- What is your goal with this project? -->
-        <div class="form-group">
-            <label for="goal">What is your goal with this project?:</label>
-            <textarea id="goal" name="goal" rows="4" class="form-control" required></textarea>
-        </div>
+    </div> <!--  end .container  -->
 
-        <!-- Agreement Section -->
-        <div class="form-group">
-            <p>Please read and sign below: I understand that as a leader of this new chapter and a steward of the
-                environment, I will carry out my responsibilities to their fullest. I will uphold the rules and
-                reputation of this national organization and understand any breach of these promises can result in the
-                termination of my chapter.</p>
-            <label for="signature">Signature:</label>
-            <input type="text" id="signature" name="signature" class="form-control" required>
-        </div>
+</section> <!--  end .section-content-block -->
 
-        <div class="form-group">
-            <div class="form-check">
-                <p>Thank you so much for your contributions to the Foodnomics organization and our environment! We
-                    encourage you to report the results of your efforts with our leadership team after you have gathered
-                    sufficient data, which we will process and publish as part of our collective quarterly report.</p>
-                <label for="description">Please provide a brief description of your chapter's progress (Optional)</label>
-                <textarea id="description" name="description"  rows="4" class="form-control"></textarea>
-            </div>
-            <!-- Submit Button -->
-            <div class="form-group" style="padding: 10px 0px">
-                <input type="submit" value="Submit" class="btn btn-success btn-block"
-                       style="width: auto; padding: 5px 10px;">
-            </div>
-    </form>
-
-</section><!-- FOOTER  -->
+<!-- FOOTER  -->
 
 <footer>
     <!-- FOOTER WIDGET AREA -->
@@ -216,7 +268,6 @@
                                             influencing your immediate community, you are helping your locality, but
                                             collectively we can take on the world's most important problem, one meal at
                                             a time.</p>
-                                        <!--                                        <a href="">Read More</a>-->
                                     </div>
                                 </div>
 
@@ -236,25 +287,18 @@
 
                     <div class="footer-widget-area">
 
-                        <!--                        <h3>Organization mission</h3>-->
-
-
-
                         <div class="contact-info divider-line">
 
                             <div class="contact-heading">Phone :</div>
                             <div class="contact-details">
-                                <!--                                (+1)755-650-5212 <br/>(+1)755-065-1252-->
                                 609-297-6406
                             </div>
 
                         </div>
 
-
-
                     </div> <!-- end .footer-widget-area  -->
 
-                </div> <!-- end .col-md-4  -->
+                </div> <!-- end .col-md-6  -->
 
             </div> <!-- end .row  -->
 
@@ -285,7 +329,7 @@
                                 <li><a href="reports.html">Reports</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                                 <li><a href="application.html">Application</a></li>
-                                <li><a href="app-demo.html">App Demo</a></li>
+                        <li><a href="app-demo.html">App Demo</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -310,8 +354,6 @@
 <script src="js/jquery.stellar.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/venobox.min.js"></script>
-<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="js/jquery.gmap.min.js"></script>
 <script src="js/custom-scripts.js"></script>
 
 </body>
